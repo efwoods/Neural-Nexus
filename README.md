@@ -71,3 +71,15 @@ The app uses React state management (no browser storage) and includes proper err
  - [Thought-to-Motion-Models](https://github.com/efwoods/CRCNS)
 
 ---
+
+MILESTONES:
+- [ ] add users
+- [ ] verify logins
+- [ ] transcribe audio
+- [ ] stream neural-to-text & visualize
+- [ ] conversation suggestions
+- [ ] stream neural-to-images & visualize
+- [ ] save avatars, messages, & history
+- [ ] stream thought-to-motion & visualize
+- [ ] audio input
+- [ ] Custom LLM per avatar
