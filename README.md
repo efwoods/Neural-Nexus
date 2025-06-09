@@ -45,7 +45,7 @@ Modern Design:
 Stunning gradient backgrounds and glassmorphism effects
 Responsive layout that works on different screen sizes
 Smooth animations and hover effects
-Professional color scheme with purple, cyan, and blue tones
+Professional color scheme with purple, cyan, and green tones
 
 🎯 How to Use
 
