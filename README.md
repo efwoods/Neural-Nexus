@@ -3,7 +3,7 @@ This is the landing page for the Neural Nexus Project
 
 ---
 
-This is a MVP to allow the collection and interaction with personal data in the form of custom LLMs
+This is a MVP to allow the collection and interaction with personal data in the form of custom LLMs & the use of neural data in the form of vision, inner thought (silent reading), and movement for novel purposes.
 
 ---
 
@@ -12,6 +12,10 @@ Potential use cases:
  - Create avatars to communicate with people you haven't in a while
  - Create avatars to communicate with people based on historical data
  - Create avatars of yourself to suggest responses to a local conversation.
+ - Reconstruct images in the V1 visual cortext to see what a person is seeing, communicate what a person is dreaming at night, and visualize imagination
+ - Reconstruct text to allow for hyper-fast communication, and communication for those with ALS or other disabilities to unlock their beautiful mind and communicate with high fidelity to the world ***
+ - Reconstruct movement to allow for control of external robotic devices, exosuits, and the physical body to create hyper-performant athletes, give the disabled the ability to function normally, and allow the prediction & visualization of future movements for the general public and the historical recording and replaying of these movements.
+ - Allow for the custom LLM of an avatar, the motions of the individual, the inner thoughts, and the visualization of the individual to be uploaded to an embodied robot to persist in the physical world.
 
 Avatar Management:
 
@@ -60,14 +64,14 @@ The app uses React state management (no browser storage) and includes proper err
 
 ## Component Repositories:
  - [Database](https://github.com/efwoods/Neural-Nexus-DB)
- - [Reverse-Proxy](https://github.com/efwoods/Neural-Nexus-Reverse-Proxy)
+ - [API Gateway](https://github.com/efwoods/Neural-Nexus-API-Gateway)
  - [Frontend](https://github.com/efwoods/Neural-Nexus-Frontend)
  - [Audio-to-Text-API](https://github.com/efwoods/transcription-api)
- - [Thought-To-Image](https://github.com/efwoods/V1-Visual-Cortex-Visualization)
- - [Thought-To-Text](https://github.com/efwoods/Inner-Speech)
+ - [Thought-To-Image-Model](https://github.com/efwoods/V1-Visual-Cortex-Visualization)
+ - [Thought-To-Image-Simulation-API](https://github.com/efwoods/Thought-To-Image-Simulation-API)
+ - [Thought-To-Text](TBD)
  - [Local-LLM-API](https://github.com/efwoods/Vision_LLM_API)
- - [Gaze-Tracking/Telepathy](https://github.com/efwoods/eye-tracking)
- - [Thought-to-Motion-API](https://github.com/efwoods/ecog-movement-prediction-api)
+ - [Thought-to-Motion-API](TBD)
  - [Thought-to-Motion-Models](https://github.com/efwoods/CRCNS)
 
 ---
