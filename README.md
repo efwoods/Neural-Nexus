@@ -73,13 +73,35 @@ The app uses React state management (no browser storage) and includes proper err
 ---
 
 MILESTONES:
-- [ ] add users
+- [x] add users
 - [ ] verify logins
-- [ ] transcribe audio
-- [ ] stream neural-to-text & visualize
-- [ ] conversation suggestions
-- [ ] stream neural-to-images & visualize
-- [ ] save avatars, messages, & history
-- [ ] stream thought-to-motion & visualize
-- [ ] audio input
-- [ ] Custom LLM per avatar
+- [x] transcribe audio (This needs to be improved)
+- [ ] stream neural-to-text & visualize (needs a model)
+- [ ] conversation suggestions (placeholders, need a real suggestion based on dialogue)
+- [ ] stream neural-to-images & visualize (showing images is not present)
+- [ ] save avatars, messages, & history (needs a modal to CRUD avatars and Avatar Documents and Train Custom LLMs)
+- [ ] stream thought-to-motion & visualize (needs a visualization, the model has been defined)
+- [ ] audio input (push-to-talk function needs to be implemented)
+- [ ] Custom LLM per avatar (not yet defined)
+
+Future Work:
+Highest Priority
+
+- [ ]  The conversations need to be saved to the db per avatar
+- [ ]  speaker diarization needs to identify who is speaking
+- [ ]  the conversations need to be added to a custom language model for suggestions
+- [ ]  suggestions need to be sent to the frontend
+- [ ]  images need to be presented in the frontend
+- [ ]  images need to be reconstructed
+- [ ]  thought-to-text api models need to be created based upon a dataset
+- [ ]  need to integrate the thought to motion prediction into a 3.js visualization
+
+Secondary Priority
+
+- [ ]  need to add the ability to communicate with other users of the application
+- [ ]  add chat rooms
+- [ ]  add face-to-face communication
+- [ ]  add api for the trained avatars to interface with other social media applications
+- [ ]  add the ability to link social media to the main account to train the avatar
+- [ ]  use youtube transcription links to train avatars
+- [ ]  create an option setting to view, delete, and upload uploaded avatar documents and alter the avatar name
